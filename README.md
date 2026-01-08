@@ -11,10 +11,12 @@ We apply singular value decomposition (SVD) to the 470-nm excitation images to o
 ### #03_ica
 We apply SVD to hemodynamic-corrected image and independent component analysis (ICA) to SVD temporal components.
 
+
 ## Pupil analysis
 
 ### #04_pupil_diameter
 We trim mp4 files around eye area for DeepLabCut (DLC) analysis, and calclate diameter from csv file DLC output.
+
 
 ## Deep learning
 
