@@ -1,6 +1,6 @@
-Deep learning with Wide-field and pupil data
+# Deep learning with Wide-field and pupil data
 
-Wide-field analysis
+## Wide-field analysis
 
 #01_registration
 we register wide-field images to Allen brain atlas with Affine transformation
@@ -11,8 +11,12 @@ We apply singular value decomposition (SVD) to the 470-nm excitation images to o
 #03_ica
 We apply SVD to hemodynamic-corrected image and independent component analysis (ICA) to SVD temporal components.
 
+### Pupil analysis
+
 #04_pupil_diameter
 We trim mp4 files around eye area for DeepLabCut (DLC) analysis, and calclate diameter from csv file DLC output.
+
+#### Deep learning
 
 #05_deep_learning
 We make datasets with time courses from ICA temporal components and pupil diameter, then input it into recurrent neural network (RNN) model. We calculate feature importance by applying permutation importance and DeepSHAP to RNN model.
