@@ -2,7 +2,7 @@
 
 ## Wide-field analysis
 
-### #01_registration
+### [Registration](https://github.com/moritalabC201/WF_deep-learning/tree/main/%2301_registration)
 we register wide-field images to Allen brain atlas with Affine transformation
 
 ### #02_hemodynamic_correction
